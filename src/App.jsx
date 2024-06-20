@@ -43,7 +43,7 @@ export const useVisibility = (id) => {
 function App() {
 
   let [night, setNight] = useState(
-    localStorage.getItem("night") === "true" ? true : false
+    localStorage.getItem("night") === "false" ? false : true
   );
   const [chuseLang, setChuseLang] = useState(false);
   
