@@ -38,6 +38,16 @@ const Projects = ({night}) => {
           link="https://github.com/Javohir-22/World-Matress"
           className={`mt-8 ${!isVisible ? "animate-right" : ""}`}
         />
+
+        <ProjectForm
+          name="Stuff shop"
+          img="matress.png"
+          checkOne="react"
+          checkTwo="redux"
+          checkThree="axios"
+          link="https://github.com/Javohir-22/Stuff-shop"
+          className={`mt-8 ${!isVisible ? "animate-left" : ""}`}
+        />
       </div>
     </section>
   );
