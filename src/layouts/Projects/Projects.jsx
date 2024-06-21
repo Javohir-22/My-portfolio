@@ -41,7 +41,7 @@ const Projects = ({night}) => {
 
         <ProjectForm
           name="Stuff shop"
-          img="matress.png"
+          img="photo_2024-06-21_13-12-13.jpg"
           checkOne="react"
           checkTwo="redux"
           checkThree="axios"
